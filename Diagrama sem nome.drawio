@@ -1,9 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T22:40:12.078Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="UawTJzdMve-SmyGoBSVQ" type="github">
-  <diagram name="Página-1" id="J8-lIF1y7zf7Nhp616cC">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-10-16T23:24:06.888Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="lphp4CbnZTYdKXdoLaNl" version="22.0.4" type="github">
+  <diagram id="XQUJhnX156p9jHLyWPA0" name="Página-2">
+    <mxGraphModel dx="2017" dy="1368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-1" value="Home&lt;br&gt;Iphone" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80.5" y="396" width="140" height="80" as="geometry" />
+        </mxCell>
+        <object label="ITunesApp" ITunesApp="" id="a3X0WokvrHyCmbf7tRlF-3">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=23;strokeColor=#FFFFFF;" vertex="1" parent="1">
+            <mxGeometry x="-141" y="160" width="161" height="156" as="geometry">
+              <mxRectangle x="-141" y="160" width="165" height="31" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-7" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 12px;&quot;&gt;+ isPlaying: boolean&lt;br style=&quot;font-size: 12px;&quot;&gt;+playingNow: Music&lt;br&gt;____________________________&lt;br&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;+play(Music): void&lt;br style=&quot;font-size: 12px;&quot;&gt;+pause(): void&lt;br style=&quot;font-size: 12px;&quot;&gt;+selectMusic(Music): Musica&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="a3X0WokvrHyCmbf7tRlF-3">
+          <mxGeometry x="1" y="23" width="160" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-4" value="PhoneApp" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fillColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="161" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-8" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 12px;&quot;&gt;+ isCalling: boolean&lt;br style=&quot;font-size: 12px;&quot;&gt;+Caller: Contact&lt;br&gt;____________________________&lt;br&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;+call(): void&lt;br style=&quot;font-size: 12px;&quot;&gt;+answer(): void&lt;br style=&quot;font-size: 12px;&quot;&gt;+voiceMail(): void&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="a3X0WokvrHyCmbf7tRlF-4">
+          <mxGeometry x="3" y="23" width="160" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-5" value="InternetNavigator" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="281" y="160" width="179" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-9" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 12px;&quot;&gt;+ tabs: InternetPage[ ]&lt;br&gt;_______________________________&lt;br&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;+viewInternetPage(URI): void&lt;br style=&quot;font-size: 12px;&quot;&gt;+addNewTab(URI): void&lt;br style=&quot;font-size: 12px;&quot;&gt;+refreshInternetPage(URI): void&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="a3X0WokvrHyCmbf7tRlF-5">
+          <mxGeometry x="4" y="23" width="175" height="133" as="geometry" />
+        </mxCell>
+        <object label="Music" ITunesApp="" id="a3X0WokvrHyCmbf7tRlF-10">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=23;strokeColor=#FFFFFF;" vertex="1" parent="1">
+            <mxGeometry x="-143.5" y="-52" width="166" height="138" as="geometry">
+              <mxRectangle x="-141" y="160" width="165" height="31" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-11" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 12px;&quot;&gt;#title: String&lt;br&gt;&lt;br&gt;#artist: String&lt;br&gt;&lt;br&gt;#album: String&amp;nbsp;&lt;br&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="a3X0WokvrHyCmbf7tRlF-10">
+          <mxGeometry x="3" y="19" width="160" height="119" as="geometry" />
+        </mxCell>
+        <object label="Contact" ITunesApp="" id="a3X0WokvrHyCmbf7tRlF-12">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=23;strokeColor=#FFFFFF;" vertex="1" parent="1">
+            <mxGeometry x="67.5" y="-52" width="166" height="116" as="geometry">
+              <mxRectangle x="-141" y="160" width="165" height="31" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-13" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 12px;&quot;&gt;#name:String&lt;br&gt;&lt;br&gt;#phoneNumber: String&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="a3X0WokvrHyCmbf7tRlF-12">
+          <mxGeometry x="3" y="22" width="160" height="74" as="geometry" />
+        </mxCell>
+        <object label="Contact" ITunesApp="" id="a3X0WokvrHyCmbf7tRlF-14">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=23;strokeColor=#FFFFFF;" vertex="1" parent="1">
+            <mxGeometry x="287.5" y="-52" width="166" height="116" as="geometry">
+              <mxRectangle x="-141" y="160" width="165" height="31" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-15" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 12px;&quot;&gt;#URI: String&lt;br&gt;&lt;br&gt;#isLoaded: Boolean&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="a3X0WokvrHyCmbf7tRlF-14">
+          <mxGeometry x="3" y="22" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=16;direction=north;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-55.5" y="344" width="417" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;strokeColor=#FFFFFF;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="a3X0WokvrHyCmbf7tRlF-18" target="a3X0WokvrHyCmbf7tRlF-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="212" as="sourcePoint" />
+            <mxPoint x="196" y="162" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="151" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="a3X0WokvrHyCmbf7tRlF-18" target="a3X0WokvrHyCmbf7tRlF-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="212" as="sourcePoint" />
+            <mxPoint x="196" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="a3X0WokvrHyCmbf7tRlF-18" target="a3X0WokvrHyCmbf7tRlF-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="212" as="sourcePoint" />
+            <mxPoint x="196" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="a3X0WokvrHyCmbf7tRlF-4" target="a3X0WokvrHyCmbf7tRlF-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="212" as="sourcePoint" />
+            <mxPoint x="196" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="a3X0WokvrHyCmbf7tRlF-3" target="a3X0WokvrHyCmbf7tRlF-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="121" y="187" as="sourcePoint" />
+            <mxPoint x="221" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-27" value="" style="shape=message;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="a3X0WokvrHyCmbf7tRlF-26">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3X0WokvrHyCmbf7tRlF-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="a3X0WokvrHyCmbf7tRlF-5" target="a3X0WokvrHyCmbf7tRlF-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="212" as="sourcePoint" />
+            <mxPoint x="196" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
